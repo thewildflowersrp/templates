@@ -1,0 +1,176 @@
+<style type="text/css">
+body {
+ --border: #cfcfcf;
+}
+/***********************************
+ Template Membergroups
+************************************/
+.postgroup-4, .admins {
+ --tmgcolor: #A993C7;
+ --tmgcolorop15per: #A993C726;
+ --tmgcolorop20per: #A993C733;
+ --tmgcolorop30per: #A993C74d;
+ --tmgcolorop40per: #A993C766;
+ --tmgcolorop60per: #A993C799;
+ --tmgcolorop70per: #A993C7b3;
+ --tmgcolorop80per: #A993C7cc;
+ --tmgcolorop90per: #A993C7e6;
+ --tgroupname: "admins";
+}
+.postgroup-2, .guests{
+ --tmgcolor: #B7CBBF;
+ --tmgcolorop15per: #B7CBBF26;
+ --tmgcolorop20per: #B7CBBF33;
+ --tmgcolorop30per: #B7CBBF4d;
+ --tmgcolorop40per: #B7CBBF66;
+ --tmgcolorop60per: #B7CBBF99;
+ --tmgcolorop70per: #B7CBBFb3;
+ --tmgcolorop80per: #B7CBBFcc;
+ --tmgcolorop90per: #B7CBBFe6;
+ --tgroupname: "guests";
+}
+.postgroup-6, .weeds {
+ --tmgcolor: #777777;
+ --tmgcolorop15per: #77777726;
+ --tmgcolorop20per: #77777733;
+ --tmgcolorop30per: #7777774d;
+ --tmgcolorop40per: #77777766;
+ --tmgcolorop60per: #77777799;
+ --tmgcolorop70per: #777777b3;
+ --tmgcolorop80per: #777777cc;
+ --tmgcolorop90per: #777777e6;
+ --tgroupname: "weeds";
+}
+.postgroup-3, .unsorted, .membergroup {
+ --tmgcolor: #B7CBBF;
+ --tmgcolorop15per: #B7CBBF26;
+ --tmgcolorop20per: #B7CBBF33;
+ --tmgcolorop30per: #B7CBBF4d;
+ --tmgcolorop40per: #B7CBBF66;
+ --tmgcolorop60per: #B7CBBF99;
+ --tmgcolorop70per: #B7CBBFb3;
+ --tmgcolorop80per: #B7CBBFcc;
+ --tmgcolorop90per: #B7CBBFe6;
+ --tgroupname: "unsorted";
+}
+.postgroup-7, .postgroup-8, .lilac {
+ --tmgcolor: #CEB9DC;
+ --tmgcolorop15per: #CEB9DC26;
+ --tmgcolorop20per: #CEB9DC33;
+ --tmgcolorop30per: #CEB9DC4d;
+ --tmgcolorop40per: #CEB9DC66;
+ --tmgcolorop60per: #CEB9DC99;
+ --tmgcolorop70per: #CEB9DCb3;
+ --tmgcolorop80per: #CEB9DCcc;
+ --tmgcolorop90per: #CEB9DCe6;
+ --tgroupname: "lilac";
+}
+.postgroup-9, .postgroup-10, .daffodil {
+ --tmgcolor: #B8DAD8;
+ --tmgcolorop15per: #B8DAD826;
+ --tmgcolorop20per: #B8DAD833;
+ --tmgcolorop30per: #B8DAD84d;
+ --tmgcolorop40per: #B8DAD866;
+ --tmgcolorop60per: #B8DAD899;
+ --tmgcolorop70per: #B8DAD8b3;
+ --tmgcolorop80per: #B8DAD8cc;
+ --tmgcolorop90per: #B8DAD8e6;
+ --tgroupname: "daffodil";
+}
+.postgroup-11, .postgroup-12, .tulip {
+ --tmgcolor: #C2DEAB;
+ --tmgcolorop15per: #C2DEAB26;
+ --tmgcolorop20per: #C2DEAB33;
+ --tmgcolorop30per: #C2DEAB4d;
+ --tmgcolorop40per: #C2DEAB66;
+ --tmgcolorop60per: #C2DEAB99;
+ --tmgcolorop70per: #C2DEABb3;
+ --tmgcolorop80per: #C2DEABcc;
+ --tmgcolorop90per: #C2DEABe6;
+ --tgroupname: "tulip";
+}
+.postgroup-13, .postgroup-14, .orchid {
+ --tmgcolor: #C59FB4;
+ --tmgcolorop15per: #C59FB426;
+ --tmgcolorop20per: #C59FB433;
+ --tmgcolorop30per: #C59FB44d;
+ --tmgcolorop40per: #C59FB466;
+ --tmgcolorop60per: #C59FB499;
+ --tmgcolorop70per: #C59FB4b3;
+ --tmgcolorop80per: #C59FB4cc;
+ --tmgcolorop90per: #C59FB4e6;
+ --tgroupname: "orchid";
+}
+.postgroup-15, .postgroup-16, .iris {
+ --tmgcolor: #96AAC3;
+ --tmgcolorop15per: #96AAC326;
+ --tmgcolorop20per: #96AAC333;
+ --tmgcolorop30per: #96AAC34d;
+ --tmgcolorop40per: #96AAC366;
+ --tmgcolorop60per: #96AAC399;
+ --tmgcolorop70per: #96AAC3b3;
+ --tmgcolorop80per: #96AAC3cc;
+ --tmgcolorop90per: #96AAC3e6;
+ --tgroupname: "iris";
+}
+.postgroup-17, .postgroup-18, .tigerlily {
+ --tmgcolor: #B8D8C8;
+ --tmgcolorop15per: #B8D8C826;
+ --tmgcolorop20per: #B8D8C833;
+ --tmgcolorop30per: #B8D8C84d;
+ --tmgcolorop40per: #B8D8C866;
+ --tmgcolorop60per: #B8D8C899;
+ --tmgcolorop70per: #B8D8C8b3;
+ --tmgcolorop80per: #B8D8C8cc;
+ --tmgcolorop90per: #B8D8C8e6;
+ --tgroupname: "tigerlily";
+}
+.postgroup-19, .postgroup-20, .daisy {
+ --tmgcolor: #DEA9B0;
+ --tmgcolorop15per: #DEA9B026;
+ --tmgcolorop20per: #DEA9B033;
+ --tmgcolorop30per: #DEA9B04d;
+ --tmgcolorop40per: #DEA9B066;
+ --tmgcolorop60per: #DEA9B099;
+ --tmgcolorop70per: #DEA9B0b3;
+ --tmgcolorop80per: #DEA9B0cc;
+ --tmgcolorop90per: #DEA9B0e6;
+ --tgroupname: "daisy";
+}
+.postgroup-21, .postgroup-22, .hibiscus {
+ --tmgcolor: #E2BC98;
+ --tmgcolorop15per: #E2BC9826;
+ --tmgcolorop20per: #E2BC9833;
+ --tmgcolorop30per: #E2BC984d;
+ --tmgcolorop40per: #E2BC9866;
+ --tmgcolorop60per: #E2BC9899;
+ --tmgcolorop70per: #E2BC98b3;
+ --tmgcolorop80per: #E2BC98cc;
+ --tmgcolorop90per: #E2BC98e6;
+ --tgroupname: "hibiscus";
+}
+.postgroup-23, .postgroup-24, .sunflower {
+ --tmgcolor: #E3DA9B;
+ --tmgcolorop15per: #E3DA9B26;
+ --tmgcolorop20per: #E3DA9B33;
+ --tmgcolorop30per: #E3DA9B4d;
+ --tmgcolorop40per: #E3DA9B66;
+ --tmgcolorop60per: #E3DA9B99;
+ --tmgcolorop70per: #E3DA9Bb3;
+ --tmgcolorop80per: #E3DA9Bcc;
+ --tmgcolorop90per: #E3DA9Be6;
+ --tgroupname: "sunflower";
+}
+.postgroup-25, .postgroup-26, .peony {
+ --tmgcolor: #E7BCB6;
+ --tmgcolorop15per: #E7BCB626;
+ --tmgcolorop20per: #E7BCB633;
+ --tmgcolorop30per: #E7BCB64d;
+ --tmgcolorop40per: #E7BCB666;
+ --tmgcolorop60per: #E7BCB699;
+ --tmgcolorop70per: #E7BCB6b3;
+ --tmgcolorop80per: #E7BCB6cc;
+ --tmgcolorop90per: #E7BCB6e6;
+ --tgroupname: "peony";
+}
+</style>
